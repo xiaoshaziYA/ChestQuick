@@ -1,0 +1,21 @@
+name: ChestQuick
+version: ${project.version}
+main: org.leng.ChestQuick.ChestQuick
+description: 快速将手上拿的资源放入箱子
+author: shazi_awa
+website: Mistral Network
+prefix: "[ChestQuick]"
+commands:
+  chestquick:
+    description: 显示插件信息
+    usage: /chestquick [reload|code|hutao]
+permissions:
+  chestquick.admin:
+    description: 允许访问所有ChestQuick管理命令
+    default: op
+  chestquick.hutao.vote:
+    description: 允许为胡桃投票
+    default: true
+  chestquick.hutao.view:
+    description: 允许查看胡桃投票数
+    default: true
